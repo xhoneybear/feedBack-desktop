@@ -497,6 +497,7 @@ function createWindow(port: number): void {
         minWidth: MIN_WIDTH,
         minHeight: MIN_HEIGHT,
         fullscreen: startFullscreen,
+        fullscreenable: true,
         title: 'fee[dB]ack',
         backgroundColor: '#0f172a', // slate-900 to match Slopsmith UI
         webPreferences: rendererWebPreferences,
